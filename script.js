@@ -15,7 +15,7 @@ $(document).ready(function() {
     nowHour12 = 1;
   }
 
-  let $dateHeading = $("#navbar-subtitle");
+  let $dateHeading = $("#currentDay");
   $dateHeading.text(now);
 
   // using font awesome icon https://fontawesome.com/license
